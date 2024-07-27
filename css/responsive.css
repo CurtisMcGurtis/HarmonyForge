@@ -12,7 +12,7 @@
     .header-title p{
         font-size: 1.4rem;
     }
-    .rooms-row, .services-row{
+    .rooms-row, .services-row, .footer-row{
         display: grid;
         grid-template-columns: repeat(2 ,1fr);
         gap: 2rem;
