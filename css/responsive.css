@@ -20,6 +20,18 @@
     .rooms-item, .services-item{
         margin: 0;
     }
+
+    .social-links li:nth-child(1){
+        margin-left: 0;
+    }
+    .gallery-row{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+    .gallery-item{
+        margin: 0;
+    }
 }
 @media screen and (min-width: 992px) {
     .header-title h1{
@@ -66,5 +78,8 @@
 @media screen and (min-width: 1400px) {
     .rooms-row, .services-row{
         grid-template-columns: repeat(3, 1fr);
+    }
+    .gallery-row{
+        grid-template-columns: repeat(4,1fr);
     }
 }
