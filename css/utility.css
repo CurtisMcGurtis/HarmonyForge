@@ -74,6 +74,13 @@ button, input[type = "submit"]{
     text-transform: uppercase;
 }
 
+.title-wrap-no-margin{
+    text-align: center;
+    padding: 1.4rem 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
 .py-4{
     padding: 4rem 0;
 }
@@ -86,6 +93,10 @@ img{
 .lg-title{
     font-size: 1.8rem;
 }
+.lg-title-inn{
+    font-size: 1.8rem;
+    margin-top: .5rem;
+}
 .sm-title{
     display: block;
     color: #787878;
@@ -96,6 +107,30 @@ img{
     margin-left: auto;
     line-height: 1.7;
     text-align: center;
+}
+.sm-title-inn{
+    display: block;
+    color: #787878;
+    font-weight: 300;
+    font-size: 1.2rem;
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.7;
+    text-align: left;
+}
+.sm-subtext{
+    display: inline-block;
+    color: #787878;
+    font-weight: 300;
+    font-size: .8rem;
+    max-width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    text-align: left;
 }
 .my-2{
     margin: 2rem 0;
